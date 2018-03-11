@@ -1,8 +1,10 @@
-# Piano Analysis/Synthesis - FirstTry
+# Piano Experiments
 
-I want to see if I can build a piano sampler in Python. I want to take a recording of a single piano note, run a Fourier analysis on it to determine its spectrum, and then synthesize an audio wave by applying the Fourier coefficients to sinusoids. I think that is called a Fourier Representation. If I get a meaningful result, then I want to extend that Fourier Representation to neighboring pitches and see how far I can go from the original pitch and still sound credble.
+This repository contains Jupyter notebooks with audio experiments about the piano.
 
-I use tools from Allen Downey's book about digital signal processing, Think DSP. His code is available on GitHub.
+I started out with the idea of building a piano sampler in Python. I analyzed a single piano tone, which I then synthesized to see if I could get a convincing representation. I thought the results were meaningful, but the exploration provoked more questions which I continued to explore in more notebooks.
+
+I use tools from Allen Downey's book about digital signal processing, *Think DSP*. His code is available on GitHub.
 
 https://github.com/AllenDowney/ThinkDSP.
 
